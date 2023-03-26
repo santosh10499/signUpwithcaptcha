@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 250, 250);
+}
+#form-container
+{
+    width:25%;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+#form{
+    margin-left: 5%;
+    padding: 10%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    
+}
+#submit{
+    background-color: green;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    #form-container{
+        width: 60%;
+    }
+    
+   
+}
+@media screen and (max-width: 540px) {
+    #form-container{
+        width: 90%;
+    }
+    
+   
+}
+#msg{
+    margin-left: 45%;
+}

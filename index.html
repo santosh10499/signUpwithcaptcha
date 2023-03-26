@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/signup.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="msg"></div>
+ <div id="form-container">
+  <form id="form">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username">
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password">
+  <label for="password">Captcha:</label>
+  <input type="text" id="captcha-input" name="captcha-input">
+  <div id="captcha-container">
+  <p> Catcha : <span id="captcha-gernate"></span></p>
+  </div>
+  
+  <button type="submit" id="submit">Sign up</button>
+</form>
+</div>
+<!-- <script src="/script/SignUp.js"></script> -->
+<script src="script/signUp.js"></script>
+</body>
+</html>
